@@ -45,16 +45,15 @@ if st.button("Get Recommendations"):
     if not recommendations.empty:  # Check if the recommendations DataFrame is not empty
         st.write("Recommended TV Shows:")
 
-        # Display recommendations in a grid of 5 columns and 2 rows
+        # Display recommendations in a grid of 5 columns and 2 rows (Total 10)
         num_columns = 5
         num_rows = 2
-        total_recommendations = min(len(recommendations), num_columns * num_rows)
         
         for row_idx in range(num_rows):
             columns = st.columns(num_columns)
             for col_idx in range(num_columns):
                 index = row_idx * num_columns + col_idx
-                if index < total_recommendations:
+                if index < 10:
                     # Fetch the row of the current recommendation
                     row = recommendations.iloc[index]
 

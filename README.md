@@ -1,19 +1,12 @@
-# 🎈 Blank app template
+# ViewWise, TV Show Recommendation System
 
-A simple Streamlit app template for you to modify!
+This is a Streamlit-based web application that provides TV show recommendations based on similarity using cosine similarity and textual data.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Features:
+- Choose a TV show from the dropdown
+- Get 10 TV show content based recommendations with IMDb links, ratings, and images
+- Only includes TV Shows with IMDb Rating > 7.5 and No. Ratings > 50,000
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Requirements:
+- Python 3.8 or higher
+- Required packages are listed in `requirements.txt`
