@@ -30,7 +30,7 @@ count_matrix = count_vect.fit_transform(tv_data_processed['aggregated_text'])
 cosine_sim_c = cosine_similarity(count_matrix, count_matrix)
 
 # Streamlit UI
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide",page_title='ViewWise')
 st.title("📺 ViewWise, A TV Show Recommendation System")
 
 st.subheader("Like a TV Show? Select it for Recommendations:")
