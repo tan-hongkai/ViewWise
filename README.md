@@ -24,6 +24,6 @@ In the competitive streaming industry, personalized recommendations play a pivot
 - Web scraping using Selenium and Beautiful Soup, managing dynamic content, and interacting with HTML elements effectively.
 
 ### Notes
-Last Updated: 5/9/2024 (Updates Yearly)
-(Include TV Shows IMDB Rating > 7.5, No. Ratings > 50,000)
-By: Hong Kai
+- Last Updated: 5/9/2024 (Updates Yearly)
+- (Include TV Shows IMDB Rating > 7.5, No. Ratings > 50,000)
+- By: Hong Kai
