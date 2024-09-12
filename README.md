@@ -17,11 +17,11 @@ In the competitive streaming industry, personalized recommendations play a pivot
 - Enhanced user retention through precise personalization based on content similarity.
 
 ### What I Learned
-- Building a recommendation system experimenting with both Count and TFIDF Vectorizer.
+1. Building a recommendation system experimenting with both Count and TFIDF Vectorizer.
 
-- Handling processing of text data, such as aggregating text, handling special characters and stopwords.
+2. Handling processing of text data, such as aggregating text, handling special characters and stopwords.
 
-- Web scraping using Selenium and Beautiful Soup, managing dynamic content, and interacting with HTML elements effectively.
+3. Web scraping using Selenium and Beautiful Soup, managing dynamic content, and interacting with HTML elements effectively.
 
 ### Notes
 - Last Updated: 5/9/2024 (Updates Yearly)
