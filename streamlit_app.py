@@ -58,7 +58,7 @@ if st.button("Get Recommendations"):
                     row = recommendations.iloc[index]
 
                     # Display the TV show image from the 'image' column
-                    columns[col_idx].image(row['image'], use_column_width=True)
+                    columns[col_idx].image(row['image'], use_container_width=True)
 
                     # Display the name, IMDb link, rating value, and rating count
                     columns[col_idx].markdown(
